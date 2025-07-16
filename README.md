@@ -1,3 +1,17 @@
+# RackOS' Modern Glyph
+(Pronounce Glyph like Glife, For Pun To Work LOL)
+
+This project intends to provide a first-class Racket development and maybe even "desktop" environment `image` to the emerging `bootc` or "bootable container" ecosystem. 
+
+**Warning:** I have no idea what I'm doing atm, don't depend on this for anything; And PLEASE DON'T install this to your system into the forseeable future.
+
+--- 
+ 
+> Old README.
+
+---
+
+
 # image-template
 
 # Purpose
