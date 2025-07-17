@@ -1,12 +1,19 @@
+
+> [!WARNING]  
+> **This project is in pre-alpha phase.** 
+>> I have RackOS on a spare laptop, that I don't even daily-drive atm. Please don't use this yet. 
+
 <div align="center">
       <img src="banner.webp">
 </div>
 
-(Pronounce Glyph like Glife, For Pun To Work LOL)
 
-This project intends to provide a first-class Racket development and maybe even "desktop" environment `image` to the emerging `bootc` or "bootable container" ecosystem. 
+<div align="center">
+      <p>(<strong>Note:</strong> You Gotta Pronounce Glyph like Glife, For Pun To Work. LOL)
+</p>
+</div>
 
-**Warning:** I have no idea what I'm doing atm, don't depend on this for anything; And PLEASE DON'T install this to your system into the forseeable future.
+This project intends to provide a first-class Racket development and maybe even "desktop" environment `image` to the emerging `bootc` or "bootable container" ecosystem. We are very far from that. lol
 
 --- 
  
