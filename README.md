@@ -1,4 +1,7 @@
-# RackOS' Modern Glyph
+<div align="center">
+      <img src="banner.webp">
+</div>
+
 (Pronounce Glyph like Glife, For Pun To Work LOL)
 
 This project intends to provide a first-class Racket development and maybe even "desktop" environment `image` to the emerging `bootc` or "bootable container" ecosystem. 
