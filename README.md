@@ -1,7 +1,7 @@
 
 > [!WARNING]  
 > **This project is in pre-alpha phase.** 
->> I have RackOS on a spare laptop, that I don't even daily-drive atm. Please don't use this yet. 
+>> [The Maintainer](https://github.com/megalisp) Has RackOS on a spare laptop, that he doesn't even daily-drive atm. Please don't use this yet.
 
 <div align="center">
       <img src="banner.webp">
@@ -13,7 +13,14 @@
 </p>
 </div>
 
-This project intends to provide a first-class Racket development and maybe even "desktop" environment `image` to the emerging `bootc` or "bootable container" ecosystem. We are very far from that. lol
+</br>
+</br>
+
+<div align="center">
+<p><strong>TLDR:</strong> First-class <a href="https://racket-lang.org">Racket</a> "dev" x "desktop" environment <code>image</code> for the emerging <a href="https://bootc-dev.github.io/bootc/">bootc</a> ("bootable container") ecosystem.</p>
+</div>
+
+
 
 --- 
  
