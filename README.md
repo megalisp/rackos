@@ -49,11 +49,17 @@
 
 </br>
 
+---
 
 
-### 🤔 Why Bother?
+### 💡 THE BIG IDEA
+***Add What's The Big Idea***
 
-***Add "pitch" here. lol***
+
+---
+
+### 🤔 THE FAQS
+***Add just the faqs***
 
 
 
