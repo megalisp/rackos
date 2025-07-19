@@ -14,7 +14,7 @@ dnf5 install -y tmux racket slick-greeter openbox raylib openssh
 
 # add tailscale to base install
 sudo dnf config-manager addrepo --from-repofile=https://pkgs.tailscale.com/stable/fedora/tailscale.repo
-sudo dnf install tailscale
+sudo dnf install -y tailscale
 
 
 # Use a COPR Example:
