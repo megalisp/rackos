@@ -42,7 +42,7 @@
 #### ⚠️ TLDR
 
 > <div align="center">
-> <strong>First-Class</strong> <a href="https://racket-lang.org">Racket</a> "Dev" X "Desktop" Environment <code>Image</code> For The Emerging <a href="https://bootc-dev.github.io/bootc/">Bootc</a> ("Bootable Container") Ecosystem.
+> <strong>Aiming For A First-Class</strong> <a href="https://racket-lang.org">Racket</a> Based "Developer Experience" X "Desktop Environment" <code>Image</code> For The Emerging <a href="https://bootc-dev.github.io/bootc/">Bootc</a> ("Bootable Container") Ecosystem.
 > </div>
 
 
