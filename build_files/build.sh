@@ -10,12 +10,7 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 install -y tmux racket slick-greeter openbox raylib openssh
-
-# add tailscale to base install
-sudo dnf config-manager addrepo --from-repofile=https://pkgs.tailscale.com/stable/fedora/tailscale.repo
-sudo dnf install -y tailscale
-
+dnf5 install -y racket raylib
 
 # Use a COPR Example:
 #
@@ -25,7 +20,4 @@ sudo dnf install -y tailscale
 # dnf5 -y copr disable ublue-os/staging
 
 #### Example for enabling a System Unit File
-
-systemctl enable podman.socket
-sudo systemctl enable tailscaled
-systemctl enable sshd
+#systemctl enable podman.socket
