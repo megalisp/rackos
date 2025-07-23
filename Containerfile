@@ -3,7 +3,7 @@ FROM scratch AS ctx
 COPY build_files /
 
 # Base Image
-FROM ghcr.io/megalisp/s-os:latest
+FROM ghcr.io/megalisp/s-top:latest
 
 ## Other possible base images include:
 # FROM ghcr.io/ublue-os/bazzite:latest
