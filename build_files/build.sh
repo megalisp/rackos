@@ -12,5 +12,4 @@ set -ouex pipefail && \
     obs-studio chatterino2 vlc cef chromium \
     pavucontrol playerctl mpv sox ffmpeg yt-dlp python3-streamlink \
     qemu-kvm x11vnc input-leap kde-connect \
-    picom rofi \
     --skip-unavailable
