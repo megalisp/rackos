@@ -2,22 +2,22 @@
 
 set -ouex pipefail
 
-### Install packages
-
-# Packages can be installed from any enabled yum repo on the image.
-# RPMfusion repos are available by default in ublue main images
-# List of rpmfusion packages can be found here:
-# https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
-
-# this installs a package from fedora repos
-dnf5 install -y racket raylib
-
-# Use a COPR Example:
-#
-# dnf5 -y copr enable ublue-os/staging
-# dnf5 -y install package
-# Disable COPRs so they don't end up enabled on the final image:
-# dnf5 -y copr disable ublue-os/staging
-
-#### Example for enabling a System Unit File
-#systemctl enable podman.socket
+set -ouex pipefail && \
+  dnf5 install -y \
+    git dnf5-plugins \
+\
+    chibi-scheme chez-scheme racket raylib \
+\ 
+    papirus-icon-theme google-noto-emoji-fonts google-nono-fonts-all dejavu-sans-fonts \
+    google-roboto-fonts google-roboto-mono-fonts google-roboto-slab-fonts \
+\
+    gnome-keyring thunar tumbler feh rofi \
+\
+    obs-studio chatterino2 vlc v4l-utils v4l2loopback  cef chromium \
+\
+    pavucontrol playerctl mpv mpd sox ffmpeg yt-dlp python3-streamlink \
+\
+    qemu-kvm x11vnc input-leap kde-connect \
+\
+    picom rofi \ #move to s-top? \
+    --skip-unavailable
